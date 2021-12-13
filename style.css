@@ -8,21 +8,30 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom,#2A8C4C, #195935);
+    background-image: linear-gradient(to bottom,#36BF66, #195935);
     padding: 10px;
     color: #fff;
     text-align: center;
 }
 
-h1 {
-    text-transform: uppercase;
+nav {
+    display: flex;
+    margin-top: 20px;
+    
 }
 
 nav > a {
-    display: flex;
-    flex-direction: row;
+    padding-right: 15px;
     text-decoration: none;
+    font: bold;
     color: #fff;
+
+  
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 15px;
 }
 
 main {
@@ -35,6 +44,7 @@ main {
 main > h1, h2 {
     color: #195935;
     text-transform: uppercase;
+    background-image: linear-gradient(to right,#82d9a067, #F2F2F2);
 }
 
 main > h2 {
@@ -42,10 +52,25 @@ main > h2 {
     background-color: #82D9A0;
 }
 
+p {
+    margin: 10px;
+}
 
 img {
     display: flex;
     margin: auto;
+}
+
+img#irina {
+    width: 98%;
+}
+
+img#droids {
+    width: 98%;
+}
+
+footer {
+    background-color: #195935;
 }
 cores {
     color: #195935;
